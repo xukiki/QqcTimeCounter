@@ -6,12 +6,12 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "QqcTimeCounter"
-  s.version      = "1.0.44"
+  s.version      = "1.0.84"
   s.summary      = "QqcTimeCounter"
   s.homepage     = "https://github.com/xukiki/QqcTimeCounter"
   s.source       = { :git => "https://github.com/xukiki/QqcTimeCounter.git", :tag => "#{s.version}" }
   
   s.source_files  = ["QqcTimeCounter/*.{h,m}"]
-  s.dependency = "QqcSingletonTemplate"
+  s.dependency "QqcSingletonTemplate"
 
 end
